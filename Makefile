@@ -1,5 +1,4 @@
 PLATFORM ?= PLATFORM_DESKTOP
-BUILD_MODE ?= RELEASE
 RAYLIB_DIR = C:/raylib
 INCLUDE_DIR = -I ./ -I $(RAYLIB_DIR)/raylib/src -I $(RAYLIB_DIR)/raygui/src
 LIBRARY_DIR = -L $(RAYLIB_DIR)/raylib/src
